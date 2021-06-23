@@ -1,3 +1,5 @@
+library(dplyr)
+
 features <- read.table("D:/R/Getting and Cl Data/UCI HAR Dataset/features.txt", col.names = c("num","functions"))
 activities <- read.table("D:/R/Getting and Cl Data/UCI HAR Dataset/activity_labels.txt", col.names = c("code", "activity"))
 subject_test <- read.table("D:/R/Getting and Cl Data/UCI HAR Dataset/test/subject_test.txt", col.names = "subject")
